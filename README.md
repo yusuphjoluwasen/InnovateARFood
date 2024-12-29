@@ -106,7 +106,7 @@ struct ContentView: View {
 ## Key Components
 i. Restaurant: Represents a restaurant with a list of food items. Each food item contains the following attributes:
    1) name: Name of Restaurant.
-   2) Food: Represents an individual food item, which can be displayed in AR. Each food item contains:
+   2) foods: list of foods to be displayed, Each food item contains:
       1) name: The name of the food item.
       2) imageURL: A URL to display an image of the food.
       3) arUSDZLink: A URL to the 3D AR model of the food (USDZ format).
