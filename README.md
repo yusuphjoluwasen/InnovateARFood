@@ -103,7 +103,7 @@ struct ContentView: View {
 }
 ```
 
-##Key Components
+## Key Components
 i. Restaurant: Represents a restaurant with a list of food items. Each food item contains the following attributes:
    1) name: Name of Restaurant.
    2) Food: Represents an individual food item, which can be displayed in AR. Each food item contains:
@@ -113,7 +113,7 @@ i. Restaurant: Represents a restaurant with a list of food items. Each food item
       4) price: The price of the food item.
 ii. clientID: unique client id generated from the business portal
 
-Requirements
+## Requirements
 - iOS 16.0 or later
 - Xcode 12.0 or later
 - ARKit (for AR support)
