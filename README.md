@@ -2,7 +2,9 @@
 
 Here’s a more concise version of the description:
 
-**InnovateARFoodSDK** is an iOS SDK for integrating Augmented Reality (AR) dining experiences into restaurant and food business apps. Available for iOS 16.0 and later, it uses ARKit to display 3D models of food items, allowing customers to visually experience dishes before ordering. This enhances the dining experience by adding interactive and immersive content.
+**InnovateARFoodSDK** is an iOS SDK for integrating Augmented Reality (AR) dining experiences into restaurant and food business apps. 
+
+Available for iOS 16.0 and later, it uses AR to display 3D models of food items, allowing customers to visually experience dishes before ordering. This enhances the dining experience by adding interactive and immersive content.
 
 ## Installation
 
