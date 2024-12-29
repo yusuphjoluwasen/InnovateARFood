@@ -10,47 +10,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hzV0jDdnwLGpmFyF1ZOHAF4gae4=
+		PgjolzBuJUTsAmu+KN45kzf5hi0=
 		</data>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		EUI4whrPt/bUqXBAjB9qtqhWj4Q=
+		oEP3Thu1m03IShocxBr/nUBWMC8=
 		</data>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		0xqAU7idQb+5b77HSTD/dLbJEnk=
+		Jt4PSnZA23iB6bZKJ7vEfc+fFiw=
 		</data>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Z8II3ip+vTvd+RD+wqzNhpnFklM=
+		dt5LUGyKuIZ49jJd6gpeamOLL8A=
 		</data>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		0xqAU7idQb+5b77HSTD/dLbJEnk=
+		Jt4PSnZA23iB6bZKJ7vEfc+fFiw=
 		</data>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gH7NkzO30zMcJ3jXHaY+PnCOXcY=
+		sK194RgxzSDn+Yjc8Ko4Tv7xS7U=
 		</data>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		EUI4whrPt/bUqXBAjB9qtqhWj4Q=
+		oEP3Thu1m03IShocxBr/nUBWMC8=
 		</data>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		77ZRLai5FR1Yn+3ZJgK/IaXTXtM=
+		CFAnLgnuLKHZ85Pjc6eZU3+RKWs=
 		</data>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ITiMXYtdDt1mwz/4yyRqBMIIWMs=
+		lgyE754p1wacQdlMq+IGReY3LOM=
 		</data>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		77ZRLai5FR1Yn+3ZJgK/IaXTXtM=
+		CFAnLgnuLKHZ85Pjc6eZU3+RKWs=
 		</data>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Mn4KX3tJsdYVj9hsFkanJBdOLpg=
+		pzAPWJjl5HNxJmxCMqR1hWob3Ws=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,70 +70,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CuaJ85ae0KL8HCF+dhLgv3tT/JO2dpULTYYApRfchbc=
+			mBsllT9YdDYQrijBkdUC6ylEu/7HooqYvi7am3RiJv4=
 			</data>
 		</dict>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d2eb3KQHdPQAumUtqmmuWgYSCR95b6wXBH/bDtTsiWo=
+			VQo4A3OU6Kcsb/TxYu96DYtRdOzaLX7rlSTgSnmv/xQ=
 			</data>
 		</dict>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c0y8jb4WkkovZokXEchnBuiJfaRP9g7qxnO/j8EUBY8=
+			FEciVQ3fxfSpfWbb9mq2352RCaMCwqeY8jAkg6I6+Ks=
 			</data>
 		</dict>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d2eb3KQHdPQAumUtqmmuWgYSCR95b6wXBH/bDtTsiWo=
+			VQo4A3OU6Kcsb/TxYu96DYtRdOzaLX7rlSTgSnmv/xQ=
 			</data>
 		</dict>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OSD4X1ZImjP0FFsDZlOAnr7ZbrofKgctWwhTnEJQUCs=
+			o0B9dwmnbgIcXSaN3v7YbCkKLFHIu2z3d7HNofHXfwU=
 			</data>
 		</dict>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CuaJ85ae0KL8HCF+dhLgv3tT/JO2dpULTYYApRfchbc=
+			mBsllT9YdDYQrijBkdUC6ylEu/7HooqYvi7am3RiJv4=
 			</data>
 		</dict>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eHAE9d4NcVKzlcfHiqhFNKGgRlat32oRXjhHyTBhD2E=
+			y4dunMDUVJe10sGR8X0kMGKQ5ARe+yZAYwhgX97V658=
 			</data>
 		</dict>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bqu2AMSzAPGOZe1+OXt3/+rAnBnIqFB1W0oYnPwqZfo=
+			e6fwejdV3I8NgAErlntdymh/5u+6vIAcjoDNcnc2pcY=
 			</data>
 		</dict>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eHAE9d4NcVKzlcfHiqhFNKGgRlat32oRXjhHyTBhD2E=
+			y4dunMDUVJe10sGR8X0kMGKQ5ARe+yZAYwhgX97V658=
 			</data>
 		</dict>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zsC8LCneHuFGxcayDGuonP9jFEROIQx313KBc5Znbcg=
+			yvbgEtUayjR0S7G6GhFp/ooRHCu4bO4v40iNpgrjO44=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

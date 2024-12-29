@@ -3733,16 +3733,6 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "InnovateARFoodSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "RealityKit",
         "printedName": "RealityKit",
         "declKind": "Import",
@@ -4062,7 +4052,7 @@
     {
       "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodARView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1000,
+      "offset": 1021,
       "length": 5,
       "value": "false"
     },
@@ -4083,30 +4073,30 @@
     {
       "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
       "kind": "Array",
-      "offset": 217,
+      "offset": 233,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
       "kind": "Array",
-      "offset": 253,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/InnARViewModel.swift",
-      "kind": "Array",
-      "offset": 361,
+      "offset": 280,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/InnARViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 387,
+      "offset": 362,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/InnARViewModel.swift",
+      "kind": "Array",
+      "offset": 420,
+      "length": 2,
+      "value": "[]"
     }
   ]
 }

@@ -10,27 +10,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LXrDe2xT7CzoQRpb6GqCmc0PwIU=
+		Id5t3AGp/q1GqGEYh5rdj/PUDUA=
 		</data>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		4pqPPFxxdO+H8WmNc2e70eZlTc0=
+		oEP3Thu1m03IShocxBr/nUBWMC8=
 		</data>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		01qYzVG6kl40GkLKQWqs7snudKY=
+		uGvz05yUlfHB31TLWPbkeZDdy48=
 		</data>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		hUNsOXih9tlexsv+fhHgAie04uk=
+		S0Nq68O8E+j27ZHFPbYG0w8K/to=
 		</data>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		01qYzVG6kl40GkLKQWqs7snudKY=
+		uGvz05yUlfHB31TLWPbkeZDdy48=
 		</data>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		vfdA/tNqzZO2dlUf0rYpGTdqbuA=
+		wPUGoGRrC+IoW3Il15BLTXGGPck=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,35 +50,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uemkysOr6PRIg9FKWO4ao9nqXDAbHgk4Gtj/RPAwrZA=
+			mBsllT9YdDYQrijBkdUC6ylEu/7HooqYvi7am3RiJv4=
 			</data>
 		</dict>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			avuZ7nyAR0xm8LO9HWONPd16iiuYAKrWGNMcvEfEW0k=
+			Nz+AHQwYWLGbUB8v66ZKl7cXq6LCS8LRzcvxmuyZy6I=
 			</data>
 		</dict>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8lkyEsfOida5VonqBH6u9uCr0t+tZ2Ol70aWAW2GSss=
+			iwPKSFWp1wLhKvWmfYZv2e1yZP6IKycXJ1VlRJZJ4X8=
 			</data>
 		</dict>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			avuZ7nyAR0xm8LO9HWONPd16iiuYAKrWGNMcvEfEW0k=
+			Nz+AHQwYWLGbUB8v66ZKl7cXq6LCS8LRzcvxmuyZy6I=
 			</data>
 		</dict>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3uOqnmeG72zAdFfc+Z+k+DqSXsdoe4xlodnagL9x3n4=
+			X6aU4mOtlfkm7Mi57YCIhtg/LKd/LPpIZ8dz/RttTwA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
