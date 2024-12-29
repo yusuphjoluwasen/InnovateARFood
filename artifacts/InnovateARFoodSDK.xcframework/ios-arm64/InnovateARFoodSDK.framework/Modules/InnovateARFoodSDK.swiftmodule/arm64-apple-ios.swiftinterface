@@ -1,0 +1,143 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios17.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name InnovateARFoodSDK
+import ARKit
+import Combine
+import Foundation
+@_exported import InnovateARFoodSDK
+import RealityFoundation
+import RealityKit
+import SceneKit
+import Swift
+import SwiftUI
+import _Concurrency
+import _RealityKit_SwiftUI
+import _SceneKit_SwiftUI
+import _StringProcessing
+import _SwiftConcurrencyShims
+import simd
+public protocol HasFocusEntity : RealityFoundation.Entity {
+}
+extension InnovateARFoodSDK.HasFocusEntity {
+  public var focus: InnovateARFoodSDK.FocusEntityComponent {
+    get
+    set
+  }
+  public var isOpen: Swift.Bool {
+    get
+    set
+  }
+  public var allowedRaycasts: [ARKit.ARRaycastQuery.Target] {
+    get
+    set
+  }
+}
+public protocol FocusEntityDelegate : AnyObject {
+  @available(*, deprecated, message: "use focusEntity(_:trackingUpdated:oldState:) instead")
+  func toTrackingState()
+  @available(*, deprecated, message: "use focusEntity(_:trackingUpdated:oldState:) instead")
+  func toInitializingState()
+  func focusEntity(_ focusEntity: InnovateARFoodSDK.FocusEntity, trackingUpdated trackingState: InnovateARFoodSDK.FocusEntity.State, oldState: InnovateARFoodSDK.FocusEntity.State?)
+  func focusEntity(_ focusEntity: InnovateARFoodSDK.FocusEntity, planeChanged: ARKit.ARPlaneAnchor?, oldPlane: ARKit.ARPlaneAnchor?)
+}
+extension InnovateARFoodSDK.FocusEntityDelegate {
+  public func toTrackingState()
+  public func toInitializingState()
+  public func focusEntity(_ focusEntity: InnovateARFoodSDK.FocusEntity, trackingUpdated trackingState: InnovateARFoodSDK.FocusEntity.State, oldState: InnovateARFoodSDK.FocusEntity.State? = nil)
+  public func focusEntity(_ focusEntity: InnovateARFoodSDK.FocusEntity, planeChanged: ARKit.ARPlaneAnchor?, oldPlane: ARKit.ARPlaneAnchor?)
+}
+@_Concurrency.MainActor @preconcurrency open class FocusEntity : RealityFoundation.Entity, RealityFoundation.HasAnchoring, InnovateARFoodSDK.HasFocusEntity {
+  @_Concurrency.MainActor @preconcurrency public func moveTo(view: RealityKit.ARView)
+  @_Concurrency.MainActor @preconcurrency public func destroy()
+  @_Concurrency.MainActor @preconcurrency public var isAutoUpdating: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public func setAutoUpdate(to autoUpdate: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency weak public var delegate: (any InnovateARFoodSDK.FocusEntityDelegate)?
+  public enum State : Swift.Equatable {
+    case initializing
+    case tracking(raycastResult: ARKit.ARRaycastResult, camera: ARKit.ARCamera?)
+    public static func == (a: InnovateARFoodSDK.FocusEntity.State, b: InnovateARFoodSDK.FocusEntity.State) -> Swift.Bool
+  }
+  @_Concurrency.MainActor @preconcurrency public var state: InnovateARFoodSDK.FocusEntity.State {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var onPlane: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public var isAnimating: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public var isChangingAlignment: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public var currentPlaneAnchor: ARKit.ARPlaneAnchor? {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public var scaleEntityBasedOnDistance: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency convenience public init(on arView: RealityKit.ARView, style: InnovateARFoodSDK.FocusEntityComponent.Style)
+  @_Concurrency.MainActor @preconcurrency required public init(on arView: RealityKit.ARView, focus: InnovateARFoodSDK.FocusEntityComponent)
+  @_Concurrency.MainActor @preconcurrency required public init()
+  @_Concurrency.MainActor @preconcurrency public func stateChanged(newPlane: Swift.Bool = false)
+  @_Concurrency.MainActor @preconcurrency public func updateFocusEntity(event: RealityFoundation.SceneEvents.Update? = nil)
+  @objc deinit
+}
+public struct FocusEntityComponent : RealityFoundation.Component {
+  public enum Style {
+    case classic(color: UIKit.UIColor = FocusEntityComponent.defaultColor)
+    case colored(onColor: RealityKit.MaterialColorParameter, offColor: RealityKit.MaterialColorParameter, nonTrackingColor: RealityKit.MaterialColorParameter, mesh: RealityFoundation.MeshResource = MeshResource.generatePlane(width: 0.1, depth: 0.1))
+  }
+  public static let defaultColor: UIKit.UIColor
+  public static let classic: InnovateARFoodSDK.FocusEntityComponent
+  public static let plane: InnovateARFoodSDK.FocusEntityComponent
+  public var isOpen: Swift.Bool {
+    get
+  }
+  public var allowedRaycasts: [ARKit.ARRaycastQuery.Target]
+  public init(style: InnovateARFoodSDK.FocusEntityComponent.Style)
+}
+
+
+
+public class InnovateARParam {
+  final public let clientId: Swift.String
+  final public let restaurant: InnovateARFoodSDK.Restaurant
+  public init(clientId: Swift.String, restaurant: InnovateARFoodSDK.Restaurant)
+  @objc deinit
+}
+public struct Restaurant : Swift.Identifiable {
+  public let id: Foundation.UUID
+  public let name: Swift.String
+  public let foods: [InnovateARFoodSDK.Food]
+  public init(name: Swift.String, foods: [InnovateARFoodSDK.Food])
+  public typealias ID = Foundation.UUID
+}
+public struct Food : Swift.Identifiable, Swift.Hashable {
+  public let id: Foundation.UUID
+  public let name: Swift.String
+  public let imageURL: Swift.String
+  public let arUSDZLink: Swift.String
+  public let price: Swift.Double
+  public init(name: Swift.String, imageURL: Swift.String, arUSDZLink: Swift.String, price: Swift.Double)
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: InnovateARFoodSDK.Food, b: InnovateARFoodSDK.Food) -> Swift.Bool
+  public typealias ID = Foundation.UUID
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+
+public protocol RestaurantExperience {
+  func startRestaurantExperience(restaurant: InnovateARFoodSDK.Restaurant, clientId: Swift.String, in viewController: UIKit.UIViewController)
+  associatedtype RestaurantView : SwiftUICore.View
+  func makeRestaurantView(restaurant: InnovateARFoodSDK.Restaurant, clientId: Swift.String) -> Self.RestaurantView
+}
+@_hasMissingDesignatedInitializers final public class RestaurantSDK : InnovateARFoodSDK.RestaurantExperience {
+  public static let shared: InnovateARFoodSDK.RestaurantSDK
+  final public func startRestaurantExperience(restaurant: InnovateARFoodSDK.Restaurant, clientId: Swift.String, in viewController: UIKit.UIViewController)
+  final public func makeRestaurantView(restaurant: InnovateARFoodSDK.Restaurant, clientId: Swift.String) -> some SwiftUICore.View
+  
+  public typealias RestaurantView = @_opaqueReturnTypeOf("$s17InnovateARFoodSDK010RestaurantC0C04makeD4View10restaurant8clientIdQrAA0D0V_SStF", 0) __
+  @objc deinit
+}

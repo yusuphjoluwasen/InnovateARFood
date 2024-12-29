@@ -1,0 +1,4112 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "InnovateARFoodSDK",
+    "printedName": "InnovateARFoodSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "simd",
+        "printedName": "simd",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RealityKit",
+        "printedName": "RealityKit",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "RealityFoundation",
+        "printedName": "RealityFoundation",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HasFocusEntity",
+        "printedName": "HasFocusEntity",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "focus",
+            "printedName": "focus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FocusEntityComponent",
+                "printedName": "InnovateARFoodSDK.FocusEntityComponent",
+                "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK14HasFocusEntityPAAE5focusAA0eF9ComponentVvp",
+            "mangledName": "$s17InnovateARFoodSDK14HasFocusEntityPAAE5focusAA0eF9ComponentVvp",
+            "moduleName": "InnovateARFoodSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FocusEntityComponent",
+                    "printedName": "InnovateARFoodSDK.FocusEntityComponent",
+                    "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK14HasFocusEntityPAAE5focusAA0eF9ComponentVvg",
+                "mangledName": "$s17InnovateARFoodSDK14HasFocusEntityPAAE5focusAA0eF9ComponentVvg",
+                "moduleName": "InnovateARFoodSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : InnovateARFoodSDK.HasFocusEntity>",
+                "sugared_genericSig": "<Self where Self : InnovateARFoodSDK.HasFocusEntity>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FocusEntityComponent",
+                    "printedName": "InnovateARFoodSDK.FocusEntityComponent",
+                    "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK14HasFocusEntityPAAE5focusAA0eF9ComponentVvs",
+                "mangledName": "$s17InnovateARFoodSDK14HasFocusEntityPAAE5focusAA0eF9ComponentVvs",
+                "moduleName": "InnovateARFoodSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : InnovateARFoodSDK.HasFocusEntity>",
+                "sugared_genericSig": "<Self where Self : InnovateARFoodSDK.HasFocusEntity>",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK14HasFocusEntityPAAE5focusAA0eF9ComponentVvM",
+                "mangledName": "$s17InnovateARFoodSDK14HasFocusEntityPAAE5focusAA0eF9ComponentVvM",
+                "moduleName": "InnovateARFoodSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : InnovateARFoodSDK.HasFocusEntity>",
+                "sugared_genericSig": "<Self where Self : InnovateARFoodSDK.HasFocusEntity>",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isOpen",
+            "printedName": "isOpen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK14HasFocusEntityPAAE6isOpenSbvp",
+            "mangledName": "$s17InnovateARFoodSDK14HasFocusEntityPAAE6isOpenSbvp",
+            "moduleName": "InnovateARFoodSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK14HasFocusEntityPAAE6isOpenSbvg",
+                "mangledName": "$s17InnovateARFoodSDK14HasFocusEntityPAAE6isOpenSbvg",
+                "moduleName": "InnovateARFoodSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : InnovateARFoodSDK.HasFocusEntity>",
+                "sugared_genericSig": "<Self where Self : InnovateARFoodSDK.HasFocusEntity>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK14HasFocusEntityPAAE6isOpenSbvs",
+                "mangledName": "$s17InnovateARFoodSDK14HasFocusEntityPAAE6isOpenSbvs",
+                "moduleName": "InnovateARFoodSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : InnovateARFoodSDK.HasFocusEntity>",
+                "sugared_genericSig": "<Self where Self : InnovateARFoodSDK.HasFocusEntity>",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK14HasFocusEntityPAAE6isOpenSbvM",
+                "mangledName": "$s17InnovateARFoodSDK14HasFocusEntityPAAE6isOpenSbvM",
+                "moduleName": "InnovateARFoodSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : InnovateARFoodSDK.HasFocusEntity>",
+                "sugared_genericSig": "<Self where Self : InnovateARFoodSDK.HasFocusEntity>",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allowedRaycasts",
+            "printedName": "allowedRaycasts",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ARKit.ARRaycastQuery.Target]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Target",
+                    "printedName": "ARKit.ARRaycastQuery.Target",
+                    "usr": "c:@E@ARRaycastTarget"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK14HasFocusEntityPAAE15allowedRaycastsSaySo15ARRaycastTargetVGvp",
+            "mangledName": "$s17InnovateARFoodSDK14HasFocusEntityPAAE15allowedRaycastsSaySo15ARRaycastTargetVGvp",
+            "moduleName": "InnovateARFoodSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ARKit.ARRaycastQuery.Target]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Target",
+                        "printedName": "ARKit.ARRaycastQuery.Target",
+                        "usr": "c:@E@ARRaycastTarget"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK14HasFocusEntityPAAE15allowedRaycastsSaySo15ARRaycastTargetVGvg",
+                "mangledName": "$s17InnovateARFoodSDK14HasFocusEntityPAAE15allowedRaycastsSaySo15ARRaycastTargetVGvg",
+                "moduleName": "InnovateARFoodSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : InnovateARFoodSDK.HasFocusEntity>",
+                "sugared_genericSig": "<Self where Self : InnovateARFoodSDK.HasFocusEntity>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ARKit.ARRaycastQuery.Target]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Target",
+                        "printedName": "ARKit.ARRaycastQuery.Target",
+                        "usr": "c:@E@ARRaycastTarget"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK14HasFocusEntityPAAE15allowedRaycastsSaySo15ARRaycastTargetVGvs",
+                "mangledName": "$s17InnovateARFoodSDK14HasFocusEntityPAAE15allowedRaycastsSaySo15ARRaycastTargetVGvs",
+                "moduleName": "InnovateARFoodSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : InnovateARFoodSDK.HasFocusEntity>",
+                "sugared_genericSig": "<Self where Self : InnovateARFoodSDK.HasFocusEntity>",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK14HasFocusEntityPAAE15allowedRaycastsSaySo15ARRaycastTargetVGvM",
+                "mangledName": "$s17InnovateARFoodSDK14HasFocusEntityPAAE15allowedRaycastsSaySo15ARRaycastTargetVGvM",
+                "moduleName": "InnovateARFoodSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : InnovateARFoodSDK.HasFocusEntity>",
+                "sugared_genericSig": "<Self where Self : InnovateARFoodSDK.HasFocusEntity>",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17InnovateARFoodSDK14HasFocusEntityP",
+        "mangledName": "$s17InnovateARFoodSDK14HasFocusEntityP",
+        "moduleName": "InnovateARFoodSDK",
+        "genericSig": "<τ_0_0 : RealityKit.Entity>",
+        "sugared_genericSig": "<Self : RealityKit.Entity>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FocusEntityDelegate",
+        "printedName": "FocusEntityDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "toTrackingState",
+            "printedName": "toTrackingState()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17InnovateARFoodSDK19FocusEntityDelegateP15toTrackingStateyyF",
+            "mangledName": "$s17InnovateARFoodSDK19FocusEntityDelegateP15toTrackingStateyyF",
+            "moduleName": "InnovateARFoodSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : InnovateARFoodSDK.FocusEntityDelegate>",
+            "sugared_genericSig": "<Self where Self : InnovateARFoodSDK.FocusEntityDelegate>",
+            "deprecated": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Available",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toInitializingState",
+            "printedName": "toInitializingState()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17InnovateARFoodSDK19FocusEntityDelegateP19toInitializingStateyyF",
+            "mangledName": "$s17InnovateARFoodSDK19FocusEntityDelegateP19toInitializingStateyyF",
+            "moduleName": "InnovateARFoodSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : InnovateARFoodSDK.FocusEntityDelegate>",
+            "sugared_genericSig": "<Self where Self : InnovateARFoodSDK.FocusEntityDelegate>",
+            "deprecated": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Available",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "focusEntity",
+            "printedName": "focusEntity(_:trackingUpdated:oldState:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FocusEntity",
+                "printedName": "InnovateARFoodSDK.FocusEntity",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "State",
+                "printedName": "InnovateARFoodSDK.FocusEntity.State",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC5StateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "InnovateARFoodSDK.FocusEntity.State?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "State",
+                    "printedName": "InnovateARFoodSDK.FocusEntity.State",
+                    "usr": "s:17InnovateARFoodSDK11FocusEntityC5StateO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17InnovateARFoodSDK19FocusEntityDelegateP05focusE0_15trackingUpdated8oldStateyAA0dE0C_AH0K0OAJSgtF",
+            "mangledName": "$s17InnovateARFoodSDK19FocusEntityDelegateP05focusE0_15trackingUpdated8oldStateyAA0dE0C_AH0K0OAJSgtF",
+            "moduleName": "InnovateARFoodSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : InnovateARFoodSDK.FocusEntityDelegate>",
+            "sugared_genericSig": "<Self where Self : InnovateARFoodSDK.FocusEntityDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "focusEntity",
+            "printedName": "focusEntity(_:planeChanged:oldPlane:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FocusEntity",
+                "printedName": "InnovateARFoodSDK.FocusEntity",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ARKit.ARPlaneAnchor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ARPlaneAnchor",
+                    "printedName": "ARKit.ARPlaneAnchor",
+                    "usr": "c:objc(cs)ARPlaneAnchor"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ARKit.ARPlaneAnchor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ARPlaneAnchor",
+                    "printedName": "ARKit.ARPlaneAnchor",
+                    "usr": "c:objc(cs)ARPlaneAnchor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17InnovateARFoodSDK19FocusEntityDelegateP05focusE0_12planeChanged8oldPlaneyAA0dE0C_So13ARPlaneAnchorCSgAKtF",
+            "mangledName": "$s17InnovateARFoodSDK19FocusEntityDelegateP05focusE0_12planeChanged8oldPlaneyAA0dE0C_So13ARPlaneAnchorCSgAKtF",
+            "moduleName": "InnovateARFoodSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : InnovateARFoodSDK.FocusEntityDelegate>",
+            "sugared_genericSig": "<Self where Self : InnovateARFoodSDK.FocusEntityDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toTrackingState",
+            "printedName": "toTrackingState()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17InnovateARFoodSDK19FocusEntityDelegatePAAE15toTrackingStateyyF",
+            "mangledName": "$s17InnovateARFoodSDK19FocusEntityDelegatePAAE15toTrackingStateyyF",
+            "moduleName": "InnovateARFoodSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : InnovateARFoodSDK.FocusEntityDelegate>",
+            "sugared_genericSig": "<Self where Self : InnovateARFoodSDK.FocusEntityDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toInitializingState",
+            "printedName": "toInitializingState()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17InnovateARFoodSDK19FocusEntityDelegatePAAE19toInitializingStateyyF",
+            "mangledName": "$s17InnovateARFoodSDK19FocusEntityDelegatePAAE19toInitializingStateyyF",
+            "moduleName": "InnovateARFoodSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : InnovateARFoodSDK.FocusEntityDelegate>",
+            "sugared_genericSig": "<Self where Self : InnovateARFoodSDK.FocusEntityDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "focusEntity",
+            "printedName": "focusEntity(_:trackingUpdated:oldState:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FocusEntity",
+                "printedName": "InnovateARFoodSDK.FocusEntity",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "State",
+                "printedName": "InnovateARFoodSDK.FocusEntity.State",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC5StateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "InnovateARFoodSDK.FocusEntity.State?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "State",
+                    "printedName": "InnovateARFoodSDK.FocusEntity.State",
+                    "usr": "s:17InnovateARFoodSDK11FocusEntityC5StateO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17InnovateARFoodSDK19FocusEntityDelegatePAAE05focusE0_15trackingUpdated8oldStateyAA0dE0C_AH0K0OAJSgtF",
+            "mangledName": "$s17InnovateARFoodSDK19FocusEntityDelegatePAAE05focusE0_15trackingUpdated8oldStateyAA0dE0C_AH0K0OAJSgtF",
+            "moduleName": "InnovateARFoodSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : InnovateARFoodSDK.FocusEntityDelegate>",
+            "sugared_genericSig": "<Self where Self : InnovateARFoodSDK.FocusEntityDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "focusEntity",
+            "printedName": "focusEntity(_:planeChanged:oldPlane:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FocusEntity",
+                "printedName": "InnovateARFoodSDK.FocusEntity",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ARKit.ARPlaneAnchor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ARPlaneAnchor",
+                    "printedName": "ARKit.ARPlaneAnchor",
+                    "usr": "c:objc(cs)ARPlaneAnchor"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ARKit.ARPlaneAnchor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ARPlaneAnchor",
+                    "printedName": "ARKit.ARPlaneAnchor",
+                    "usr": "c:objc(cs)ARPlaneAnchor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17InnovateARFoodSDK19FocusEntityDelegatePAAE05focusE0_12planeChanged8oldPlaneyAA0dE0C_So13ARPlaneAnchorCSgAKtF",
+            "mangledName": "$s17InnovateARFoodSDK19FocusEntityDelegatePAAE05focusE0_12planeChanged8oldPlaneyAA0dE0C_So13ARPlaneAnchorCSgAKtF",
+            "moduleName": "InnovateARFoodSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : InnovateARFoodSDK.FocusEntityDelegate>",
+            "sugared_genericSig": "<Self where Self : InnovateARFoodSDK.FocusEntityDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17InnovateARFoodSDK19FocusEntityDelegateP",
+        "mangledName": "$s17InnovateARFoodSDK19FocusEntityDelegateP",
+        "moduleName": "InnovateARFoodSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FocusEntity",
+        "printedName": "FocusEntity",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "moveTo",
+            "printedName": "moveTo(view:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARView",
+                "printedName": "RealityKit.ARView",
+                "usr": "c:@M@RealityKit@objc(cs)ARView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17InnovateARFoodSDK11FocusEntityC6moveTo4viewy10RealityKit6ARViewC_tF",
+            "mangledName": "$s17InnovateARFoodSDK11FocusEntityC6moveTo4viewy10RealityKit6ARViewC_tF",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17InnovateARFoodSDK11FocusEntityC7destroyyyF",
+            "mangledName": "$s17InnovateARFoodSDK11FocusEntityC7destroyyyF",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isAutoUpdating",
+            "printedName": "isAutoUpdating",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK11FocusEntityC14isAutoUpdatingSbvp",
+            "mangledName": "$s17InnovateARFoodSDK11FocusEntityC14isAutoUpdatingSbvp",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC14isAutoUpdatingSbvg",
+                "mangledName": "$s17InnovateARFoodSDK11FocusEntityC14isAutoUpdatingSbvg",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setAutoUpdate",
+            "printedName": "setAutoUpdate(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17InnovateARFoodSDK11FocusEntityC13setAutoUpdate2toySb_tF",
+            "mangledName": "$s17InnovateARFoodSDK11FocusEntityC13setAutoUpdate2toySb_tF",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any InnovateARFoodSDK.FocusEntityDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK11FocusEntityC8delegateAA0dE8Delegate_pSgvp",
+            "mangledName": "$s17InnovateARFoodSDK11FocusEntityC8delegateAA0dE8Delegate_pSgvp",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any InnovateARFoodSDK.FocusEntityDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FocusEntityDelegate",
+                        "printedName": "any InnovateARFoodSDK.FocusEntityDelegate",
+                        "usr": "s:17InnovateARFoodSDK19FocusEntityDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC8delegateAA0dE8Delegate_pSgvg",
+                "mangledName": "$s17InnovateARFoodSDK11FocusEntityC8delegateAA0dE8Delegate_pSgvg",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any InnovateARFoodSDK.FocusEntityDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FocusEntityDelegate",
+                        "printedName": "any InnovateARFoodSDK.FocusEntityDelegate",
+                        "usr": "s:17InnovateARFoodSDK19FocusEntityDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC8delegateAA0dE8Delegate_pSgvs",
+                "mangledName": "$s17InnovateARFoodSDK11FocusEntityC8delegateAA0dE8Delegate_pSgvs",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC8delegateAA0dE8Delegate_pSgvM",
+                "mangledName": "$s17InnovateARFoodSDK11FocusEntityC8delegateAA0dE8Delegate_pSgvM",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "State",
+            "printedName": "State",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "initializing",
+                "printedName": "initializing",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(InnovateARFoodSDK.FocusEntity.State.Type) -> InnovateARFoodSDK.FocusEntity.State",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "State",
+                        "printedName": "InnovateARFoodSDK.FocusEntity.State",
+                        "usr": "s:17InnovateARFoodSDK11FocusEntityC5StateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "InnovateARFoodSDK.FocusEntity.State.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "InnovateARFoodSDK.FocusEntity.State",
+                            "usr": "s:17InnovateARFoodSDK11FocusEntityC5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC5StateO12initializingyA2EmF",
+                "mangledName": "$s17InnovateARFoodSDK11FocusEntityC5StateO12initializingyA2EmF",
+                "moduleName": "InnovateARFoodSDK"
+              },
+              {
+                "kind": "Var",
+                "name": "tracking",
+                "printedName": "tracking",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(InnovateARFoodSDK.FocusEntity.State.Type) -> (ARKit.ARRaycastResult, ARKit.ARCamera?) -> InnovateARFoodSDK.FocusEntity.State",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ARKit.ARRaycastResult, ARKit.ARCamera?) -> InnovateARFoodSDK.FocusEntity.State",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "InnovateARFoodSDK.FocusEntity.State",
+                            "usr": "s:17InnovateARFoodSDK11FocusEntityC5StateO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(raycastResult: ARKit.ARRaycastResult, camera: ARKit.ARCamera?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ARRaycastResult",
+                                "printedName": "ARKit.ARRaycastResult",
+                                "usr": "c:objc(cs)ARRaycastResult"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "ARKit.ARCamera?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ARCamera",
+                                    "printedName": "ARKit.ARCamera",
+                                    "usr": "c:objc(cs)ARCamera"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "InnovateARFoodSDK.FocusEntity.State.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "State",
+                            "printedName": "InnovateARFoodSDK.FocusEntity.State",
+                            "usr": "s:17InnovateARFoodSDK11FocusEntityC5StateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC5StateO8trackingyAESo15ARRaycastResultC_So8ARCameraCSgtcAEmF",
+                "mangledName": "$s17InnovateARFoodSDK11FocusEntityC5StateO8trackingyAESo15ARRaycastResultC_So8ARCameraCSgtcAEmF",
+                "moduleName": "InnovateARFoodSDK"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "State",
+                    "printedName": "InnovateARFoodSDK.FocusEntity.State",
+                    "usr": "s:17InnovateARFoodSDK11FocusEntityC5StateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "State",
+                    "printedName": "InnovateARFoodSDK.FocusEntity.State",
+                    "usr": "s:17InnovateARFoodSDK11FocusEntityC5StateO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC5StateO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s17InnovateARFoodSDK11FocusEntityC5StateO2eeoiySbAE_AEtFZ",
+                "moduleName": "InnovateARFoodSDK",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:17InnovateARFoodSDK11FocusEntityC5StateO",
+            "mangledName": "$s17InnovateARFoodSDK11FocusEntityC5StateO",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "state",
+            "printedName": "state",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "State",
+                "printedName": "InnovateARFoodSDK.FocusEntity.State",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC5StateO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK11FocusEntityC5stateAC5StateOvp",
+            "mangledName": "$s17InnovateARFoodSDK11FocusEntityC5stateAC5StateOvp",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "State",
+                    "printedName": "InnovateARFoodSDK.FocusEntity.State",
+                    "usr": "s:17InnovateARFoodSDK11FocusEntityC5StateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC5stateAC5StateOvg",
+                "mangledName": "$s17InnovateARFoodSDK11FocusEntityC5stateAC5StateOvg",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "State",
+                    "printedName": "InnovateARFoodSDK.FocusEntity.State",
+                    "usr": "s:17InnovateARFoodSDK11FocusEntityC5StateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC5stateAC5StateOvs",
+                "mangledName": "$s17InnovateARFoodSDK11FocusEntityC5stateAC5StateOvs",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC5stateAC5StateOvM",
+                "mangledName": "$s17InnovateARFoodSDK11FocusEntityC5stateAC5StateOvM",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onPlane",
+            "printedName": "onPlane",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK11FocusEntityC7onPlaneSbvp",
+            "mangledName": "$s17InnovateARFoodSDK11FocusEntityC7onPlaneSbvp",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC7onPlaneSbvg",
+                "mangledName": "$s17InnovateARFoodSDK11FocusEntityC7onPlaneSbvg",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isAnimating",
+            "printedName": "isAnimating",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK11FocusEntityC11isAnimatingSbvp",
+            "mangledName": "$s17InnovateARFoodSDK11FocusEntityC11isAnimatingSbvp",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC11isAnimatingSbvg",
+                "mangledName": "$s17InnovateARFoodSDK11FocusEntityC11isAnimatingSbvg",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isChangingAlignment",
+            "printedName": "isChangingAlignment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK11FocusEntityC19isChangingAlignmentSbvp",
+            "mangledName": "$s17InnovateARFoodSDK11FocusEntityC19isChangingAlignmentSbvp",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC19isChangingAlignmentSbvg",
+                "mangledName": "$s17InnovateARFoodSDK11FocusEntityC19isChangingAlignmentSbvg",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentPlaneAnchor",
+            "printedName": "currentPlaneAnchor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ARKit.ARPlaneAnchor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ARPlaneAnchor",
+                    "printedName": "ARKit.ARPlaneAnchor",
+                    "usr": "c:objc(cs)ARPlaneAnchor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK11FocusEntityC18currentPlaneAnchorSo07ARPlaneH0CSgvp",
+            "mangledName": "$s17InnovateARFoodSDK11FocusEntityC18currentPlaneAnchorSo07ARPlaneH0CSgvp",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ARKit.ARPlaneAnchor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ARPlaneAnchor",
+                        "printedName": "ARKit.ARPlaneAnchor",
+                        "usr": "c:objc(cs)ARPlaneAnchor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC18currentPlaneAnchorSo07ARPlaneH0CSgvg",
+                "mangledName": "$s17InnovateARFoodSDK11FocusEntityC18currentPlaneAnchorSo07ARPlaneH0CSgvg",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "scaleEntityBasedOnDistance",
+            "printedName": "scaleEntityBasedOnDistance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK11FocusEntityC05scaleE15BasedOnDistanceSbvp",
+            "mangledName": "$s17InnovateARFoodSDK11FocusEntityC05scaleE15BasedOnDistanceSbvp",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC05scaleE15BasedOnDistanceSbvg",
+                "mangledName": "$s17InnovateARFoodSDK11FocusEntityC05scaleE15BasedOnDistanceSbvg",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC05scaleE15BasedOnDistanceSbvs",
+                "mangledName": "$s17InnovateARFoodSDK11FocusEntityC05scaleE15BasedOnDistanceSbvs",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC05scaleE15BasedOnDistanceSbvM",
+                "mangledName": "$s17InnovateARFoodSDK11FocusEntityC05scaleE15BasedOnDistanceSbvM",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(on:style:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FocusEntity",
+                "printedName": "InnovateARFoodSDK.FocusEntity",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARView",
+                "printedName": "RealityKit.ARView",
+                "usr": "c:@M@RealityKit@objc(cs)ARView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Style",
+                "printedName": "InnovateARFoodSDK.FocusEntityComponent.Style",
+                "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV5StyleO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17InnovateARFoodSDK11FocusEntityC2on5styleAC10RealityKit6ARViewC_AA0dE9ComponentV5StyleOtcfc",
+            "mangledName": "$s17InnovateARFoodSDK11FocusEntityC2on5styleAC10RealityKit6ARViewC_AA0dE9ComponentV5StyleOtcfc",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Convenience",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(on:focus:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FocusEntity",
+                "printedName": "InnovateARFoodSDK.FocusEntity",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARView",
+                "printedName": "RealityKit.ARView",
+                "usr": "c:@M@RealityKit@objc(cs)ARView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FocusEntityComponent",
+                "printedName": "InnovateARFoodSDK.FocusEntityComponent",
+                "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17InnovateARFoodSDK11FocusEntityC2on5focusAC10RealityKit6ARViewC_AA0dE9ComponentVtcfc",
+            "mangledName": "$s17InnovateARFoodSDK11FocusEntityC2on5focusAC10RealityKit6ARViewC_AA0dE9ComponentVtcfc",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Required",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FocusEntity",
+                "printedName": "InnovateARFoodSDK.FocusEntity",
+                "usr": "s:17InnovateARFoodSDK11FocusEntityC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17InnovateARFoodSDK11FocusEntityCACycfc",
+            "mangledName": "$s17InnovateARFoodSDK11FocusEntityCACycfc",
+            "moduleName": "InnovateARFoodSDK",
+            "overriding": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "stateChanged",
+            "printedName": "stateChanged(newPlane:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17InnovateARFoodSDK11FocusEntityC12stateChanged8newPlaneySb_tF",
+            "mangledName": "$s17InnovateARFoodSDK11FocusEntityC12stateChanged8newPlaneySb_tF",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateFocusEntity",
+            "printedName": "updateFocusEntity(event:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RealityKit.SceneEvents.Update?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Update",
+                    "printedName": "RealityKit.SceneEvents.Update",
+                    "usr": "s:17RealityFoundation11SceneEventsO6UpdateV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17InnovateARFoodSDK11FocusEntityC06updatedE05eventy17RealityFoundation11SceneEventsO6UpdateVSg_tF",
+            "mangledName": "$s17InnovateARFoodSDK11FocusEntityC06updatedE05eventy10RealityKit11SceneEventsO6UpdateVSg_tF",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17InnovateARFoodSDK11FocusEntityC",
+        "mangledName": "$s17InnovateARFoodSDK11FocusEntityC",
+        "moduleName": "InnovateARFoodSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "superclassUsr": "s:17RealityFoundation6EntityC",
+        "superclassNames": [
+          "RealityKit.Entity"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "HasAnchoring",
+            "printedName": "HasAnchoring",
+            "usr": "s:17RealityFoundation12HasAnchoringP",
+            "mangledName": "$s10RealityKit12HasAnchoringP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "HasFocusEntity",
+            "printedName": "HasFocusEntity",
+            "usr": "s:17InnovateARFoodSDK14HasFocusEntityP",
+            "mangledName": "$s17InnovateARFoodSDK14HasFocusEntityP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "HasHierarchy",
+            "printedName": "HasHierarchy",
+            "usr": "s:17RealityFoundation12HasHierarchyP",
+            "mangledName": "$s10RealityKit12HasHierarchyP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "HasSynchronization",
+            "printedName": "HasSynchronization",
+            "usr": "s:17RealityFoundation18HasSynchronizationP",
+            "mangledName": "$s10RealityKit18HasSynchronizationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "HasTransform",
+            "printedName": "HasTransform",
+            "usr": "s:17RealityFoundation12HasTransformP",
+            "mangledName": "$s10RealityKit12HasTransformP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RealityCoordinateSpace",
+            "printedName": "RealityCoordinateSpace",
+            "usr": "s:17RealityFoundation0A15CoordinateSpaceP",
+            "mangledName": "$s17RealityFoundation0A15CoordinateSpaceP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "EventSource",
+            "printedName": "EventSource",
+            "usr": "s:17RealityFoundation11EventSourceP",
+            "mangledName": "$s10RealityKit11EventSourceP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RealityKit",
+        "printedName": "RealityKit",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "RealityKit",
+        "printedName": "RealityKit",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RealityKit",
+        "printedName": "RealityKit",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RealityKit",
+        "printedName": "RealityKit",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RealityKit",
+        "printedName": "RealityKit",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FocusEntityComponent",
+        "printedName": "FocusEntityComponent",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Style",
+            "printedName": "Style",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "classic",
+                "printedName": "classic",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(InnovateARFoodSDK.FocusEntityComponent.Style.Type) -> (UIKit.UIColor) -> InnovateARFoodSDK.FocusEntityComponent.Style",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UIKit.UIColor) -> InnovateARFoodSDK.FocusEntityComponent.Style",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Style",
+                            "printedName": "InnovateARFoodSDK.FocusEntityComponent.Style",
+                            "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV5StyleO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(color: UIKit.UIColor)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIColor",
+                                "printedName": "UIKit.UIColor",
+                                "usr": "c:objc(cs)UIColor"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "InnovateARFoodSDK.FocusEntityComponent.Style.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Style",
+                            "printedName": "InnovateARFoodSDK.FocusEntityComponent.Style",
+                            "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV5StyleO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV5StyleO7classicyAESo7UIColorC_tcAEmF",
+                "mangledName": "$s17InnovateARFoodSDK20FocusEntityComponentV5StyleO7classicyAESo7UIColorC_tcAEmF",
+                "moduleName": "InnovateARFoodSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "colored",
+                "printedName": "colored",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(InnovateARFoodSDK.FocusEntityComponent.Style.Type) -> (RealityKit.MaterialColorParameter, RealityKit.MaterialColorParameter, RealityKit.MaterialColorParameter, RealityKit.MeshResource) -> InnovateARFoodSDK.FocusEntityComponent.Style",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(RealityKit.MaterialColorParameter, RealityKit.MaterialColorParameter, RealityKit.MaterialColorParameter, RealityKit.MeshResource) -> InnovateARFoodSDK.FocusEntityComponent.Style",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Style",
+                            "printedName": "InnovateARFoodSDK.FocusEntityComponent.Style",
+                            "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV5StyleO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(onColor: RealityKit.MaterialColorParameter, offColor: RealityKit.MaterialColorParameter, nonTrackingColor: RealityKit.MaterialColorParameter, mesh: RealityKit.MeshResource)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "MaterialColorParameter",
+                                "printedName": "RealityKit.MaterialColorParameter",
+                                "usr": "s:10RealityKit22MaterialColorParameterO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "MaterialColorParameter",
+                                "printedName": "RealityKit.MaterialColorParameter",
+                                "usr": "s:10RealityKit22MaterialColorParameterO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "MaterialColorParameter",
+                                "printedName": "RealityKit.MaterialColorParameter",
+                                "usr": "s:10RealityKit22MaterialColorParameterO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "MeshResource",
+                                "printedName": "RealityKit.MeshResource",
+                                "usr": "s:17RealityFoundation12MeshResourceC"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "InnovateARFoodSDK.FocusEntityComponent.Style.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Style",
+                            "printedName": "InnovateARFoodSDK.FocusEntityComponent.Style",
+                            "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV5StyleO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV5StyleO7coloredyAE10RealityKit22MaterialColorParameterO_A2I0I10Foundation12MeshResourceCtcAEmF",
+                "mangledName": "$s17InnovateARFoodSDK20FocusEntityComponentV5StyleO7coloredyAE10RealityKit22MaterialColorParameterO_A2iG12MeshResourceCtcAEmF",
+                "moduleName": "InnovateARFoodSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV5StyleO",
+            "mangledName": "$s17InnovateARFoodSDK20FocusEntityComponentV5StyleO",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultColor",
+            "printedName": "defaultColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV12defaultColorSo7UIColorCvpZ",
+            "mangledName": "$s17InnovateARFoodSDK20FocusEntityComponentV12defaultColorSo7UIColorCvpZ",
+            "moduleName": "InnovateARFoodSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV12defaultColorSo7UIColorCvgZ",
+                "mangledName": "$s17InnovateARFoodSDK20FocusEntityComponentV12defaultColorSo7UIColorCvgZ",
+                "moduleName": "InnovateARFoodSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "classic",
+            "printedName": "classic",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FocusEntityComponent",
+                "printedName": "InnovateARFoodSDK.FocusEntityComponent",
+                "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV7classicACvpZ",
+            "mangledName": "$s17InnovateARFoodSDK20FocusEntityComponentV7classicACvpZ",
+            "moduleName": "InnovateARFoodSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FocusEntityComponent",
+                    "printedName": "InnovateARFoodSDK.FocusEntityComponent",
+                    "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV7classicACvgZ",
+                "mangledName": "$s17InnovateARFoodSDK20FocusEntityComponentV7classicACvgZ",
+                "moduleName": "InnovateARFoodSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "plane",
+            "printedName": "plane",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FocusEntityComponent",
+                "printedName": "InnovateARFoodSDK.FocusEntityComponent",
+                "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV5planeACvpZ",
+            "mangledName": "$s17InnovateARFoodSDK20FocusEntityComponentV5planeACvpZ",
+            "moduleName": "InnovateARFoodSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FocusEntityComponent",
+                    "printedName": "InnovateARFoodSDK.FocusEntityComponent",
+                    "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV5planeACvgZ",
+                "mangledName": "$s17InnovateARFoodSDK20FocusEntityComponentV5planeACvgZ",
+                "moduleName": "InnovateARFoodSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isOpen",
+            "printedName": "isOpen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV6isOpenSbvp",
+            "mangledName": "$s17InnovateARFoodSDK20FocusEntityComponentV6isOpenSbvp",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV6isOpenSbvg",
+                "mangledName": "$s17InnovateARFoodSDK20FocusEntityComponentV6isOpenSbvg",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allowedRaycasts",
+            "printedName": "allowedRaycasts",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ARKit.ARRaycastQuery.Target]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Target",
+                    "printedName": "ARKit.ARRaycastQuery.Target",
+                    "usr": "c:@E@ARRaycastTarget"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV15allowedRaycastsSaySo15ARRaycastTargetVGvp",
+            "mangledName": "$s17InnovateARFoodSDK20FocusEntityComponentV15allowedRaycastsSaySo15ARRaycastTargetVGvp",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ARKit.ARRaycastQuery.Target]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Target",
+                        "printedName": "ARKit.ARRaycastQuery.Target",
+                        "usr": "c:@E@ARRaycastTarget"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV15allowedRaycastsSaySo15ARRaycastTargetVGvg",
+                "mangledName": "$s17InnovateARFoodSDK20FocusEntityComponentV15allowedRaycastsSaySo15ARRaycastTargetVGvg",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ARKit.ARRaycastQuery.Target]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Target",
+                        "printedName": "ARKit.ARRaycastQuery.Target",
+                        "usr": "c:@E@ARRaycastTarget"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV15allowedRaycastsSaySo15ARRaycastTargetVGvs",
+                "mangledName": "$s17InnovateARFoodSDK20FocusEntityComponentV15allowedRaycastsSaySo15ARRaycastTargetVGvs",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV15allowedRaycastsSaySo15ARRaycastTargetVGvM",
+                "mangledName": "$s17InnovateARFoodSDK20FocusEntityComponentV15allowedRaycastsSaySo15ARRaycastTargetVGvM",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(style:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FocusEntityComponent",
+                "printedName": "InnovateARFoodSDK.FocusEntityComponent",
+                "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Style",
+                "printedName": "InnovateARFoodSDK.FocusEntityComponent.Style",
+                "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV5StyleO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV5styleA2C5StyleO_tcfc",
+            "mangledName": "$s17InnovateARFoodSDK20FocusEntityComponentV5styleA2C5StyleO_tcfc",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17InnovateARFoodSDK20FocusEntityComponentV",
+        "mangledName": "$s17InnovateARFoodSDK20FocusEntityComponentV",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Component",
+            "printedName": "Component",
+            "usr": "s:17RealityFoundation9ComponentP",
+            "mangledName": "$s10RealityKit9ComponentP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RealityKit",
+        "printedName": "RealityKit",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RealityKit",
+        "printedName": "RealityKit",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RealityKit",
+        "printedName": "RealityKit",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InnovateARParam",
+        "printedName": "InnovateARParam",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "clientId",
+            "printedName": "clientId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK0A7ARParamC8clientIdSSvp",
+            "mangledName": "$s17InnovateARFoodSDK0A7ARParamC8clientIdSSvp",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK0A7ARParamC8clientIdSSvg",
+                "mangledName": "$s17InnovateARFoodSDK0A7ARParamC8clientIdSSvg",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "restaurant",
+            "printedName": "restaurant",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Restaurant",
+                "printedName": "InnovateARFoodSDK.Restaurant",
+                "usr": "s:17InnovateARFoodSDK10RestaurantV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK0A7ARParamC10restaurantAA10RestaurantVvp",
+            "mangledName": "$s17InnovateARFoodSDK0A7ARParamC10restaurantAA10RestaurantVvp",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Restaurant",
+                    "printedName": "InnovateARFoodSDK.Restaurant",
+                    "usr": "s:17InnovateARFoodSDK10RestaurantV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK0A7ARParamC10restaurantAA10RestaurantVvg",
+                "mangledName": "$s17InnovateARFoodSDK0A7ARParamC10restaurantAA10RestaurantVvg",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(clientId:restaurant:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InnovateARParam",
+                "printedName": "InnovateARFoodSDK.InnovateARParam",
+                "usr": "s:17InnovateARFoodSDK0A7ARParamC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Restaurant",
+                "printedName": "InnovateARFoodSDK.Restaurant",
+                "usr": "s:17InnovateARFoodSDK10RestaurantV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17InnovateARFoodSDK0A7ARParamC8clientId10restaurantACSS_AA10RestaurantVtcfc",
+            "mangledName": "$s17InnovateARFoodSDK0A7ARParamC8clientId10restaurantACSS_AA10RestaurantVtcfc",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17InnovateARFoodSDK0A7ARParamC",
+        "mangledName": "$s17InnovateARFoodSDK0A7ARParamC",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Restaurant",
+        "printedName": "Restaurant",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK10RestaurantV2id10Foundation4UUIDVvp",
+            "mangledName": "$s17InnovateARFoodSDK10RestaurantV2id10Foundation4UUIDVvp",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK10RestaurantV2id10Foundation4UUIDVvg",
+                "mangledName": "$s17InnovateARFoodSDK10RestaurantV2id10Foundation4UUIDVvg",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK10RestaurantV4nameSSvp",
+            "mangledName": "$s17InnovateARFoodSDK10RestaurantV4nameSSvp",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK10RestaurantV4nameSSvg",
+                "mangledName": "$s17InnovateARFoodSDK10RestaurantV4nameSSvg",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "foods",
+            "printedName": "foods",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[InnovateARFoodSDK.Food]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Food",
+                    "printedName": "InnovateARFoodSDK.Food",
+                    "usr": "s:17InnovateARFoodSDK4FoodV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK10RestaurantV5foodsSayAA4FoodVGvp",
+            "mangledName": "$s17InnovateARFoodSDK10RestaurantV5foodsSayAA4FoodVGvp",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[InnovateARFoodSDK.Food]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Food",
+                        "printedName": "InnovateARFoodSDK.Food",
+                        "usr": "s:17InnovateARFoodSDK4FoodV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK10RestaurantV5foodsSayAA4FoodVGvg",
+                "mangledName": "$s17InnovateARFoodSDK10RestaurantV5foodsSayAA4FoodVGvg",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:foods:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Restaurant",
+                "printedName": "InnovateARFoodSDK.Restaurant",
+                "usr": "s:17InnovateARFoodSDK10RestaurantV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[InnovateARFoodSDK.Food]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Food",
+                    "printedName": "InnovateARFoodSDK.Food",
+                    "usr": "s:17InnovateARFoodSDK4FoodV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17InnovateARFoodSDK10RestaurantV4name5foodsACSS_SayAA4FoodVGtcfc",
+            "mangledName": "$s17InnovateARFoodSDK10RestaurantV4name5foodsACSS_SayAA4FoodVGtcfc",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17InnovateARFoodSDK10RestaurantV",
+        "mangledName": "$s17InnovateARFoodSDK10RestaurantV",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Food",
+        "printedName": "Food",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UUID",
+                "printedName": "Foundation.UUID",
+                "usr": "s:10Foundation4UUIDV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK4FoodV2id10Foundation4UUIDVvp",
+            "mangledName": "$s17InnovateARFoodSDK4FoodV2id10Foundation4UUIDVvp",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK4FoodV2id10Foundation4UUIDVvg",
+                "mangledName": "$s17InnovateARFoodSDK4FoodV2id10Foundation4UUIDVvg",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK4FoodV4nameSSvp",
+            "mangledName": "$s17InnovateARFoodSDK4FoodV4nameSSvp",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK4FoodV4nameSSvg",
+                "mangledName": "$s17InnovateARFoodSDK4FoodV4nameSSvg",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageURL",
+            "printedName": "imageURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK4FoodV8imageURLSSvp",
+            "mangledName": "$s17InnovateARFoodSDK4FoodV8imageURLSSvp",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK4FoodV8imageURLSSvg",
+                "mangledName": "$s17InnovateARFoodSDK4FoodV8imageURLSSvg",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "arUSDZLink",
+            "printedName": "arUSDZLink",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK4FoodV10arUSDZLinkSSvp",
+            "mangledName": "$s17InnovateARFoodSDK4FoodV10arUSDZLinkSSvp",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK4FoodV10arUSDZLinkSSvg",
+                "mangledName": "$s17InnovateARFoodSDK4FoodV10arUSDZLinkSSvg",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "price",
+            "printedName": "price",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK4FoodV5priceSdvp",
+            "mangledName": "$s17InnovateARFoodSDK4FoodV5priceSdvp",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK4FoodV5priceSdvg",
+                "mangledName": "$s17InnovateARFoodSDK4FoodV5priceSdvg",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:imageURL:arUSDZLink:price:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Food",
+                "printedName": "InnovateARFoodSDK.Food",
+                "usr": "s:17InnovateARFoodSDK4FoodV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17InnovateARFoodSDK4FoodV4name8imageURL10arUSDZLink5priceACSS_S2SSdtcfc",
+            "mangledName": "$s17InnovateARFoodSDK4FoodV4name8imageURL10arUSDZLink5priceACSS_S2SSdtcfc",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK4FoodV9hashValueSivp",
+            "mangledName": "$s17InnovateARFoodSDK4FoodV9hashValueSivp",
+            "moduleName": "InnovateARFoodSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK4FoodV9hashValueSivg",
+                "mangledName": "$s17InnovateARFoodSDK4FoodV9hashValueSivg",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17InnovateARFoodSDK4FoodV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s17InnovateARFoodSDK4FoodV4hash4intoys6HasherVz_tF",
+            "moduleName": "InnovateARFoodSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Food",
+                "printedName": "InnovateARFoodSDK.Food",
+                "usr": "s:17InnovateARFoodSDK4FoodV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Food",
+                "printedName": "InnovateARFoodSDK.Food",
+                "usr": "s:17InnovateARFoodSDK4FoodV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17InnovateARFoodSDK4FoodV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17InnovateARFoodSDK4FoodV2eeoiySbAC_ACtFZ",
+            "moduleName": "InnovateARFoodSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17InnovateARFoodSDK4FoodV",
+        "mangledName": "$s17InnovateARFoodSDK4FoodV",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RealityKit",
+        "printedName": "RealityKit",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RealityKit",
+        "printedName": "RealityKit",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RestaurantExperience",
+        "printedName": "RestaurantExperience",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "startRestaurantExperience",
+            "printedName": "startRestaurantExperience(restaurant:clientId:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Restaurant",
+                "printedName": "InnovateARFoodSDK.Restaurant",
+                "usr": "s:17InnovateARFoodSDK10RestaurantV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17InnovateARFoodSDK20RestaurantExperienceP05startdE010restaurant8clientId2inyAA0D0V_SSSo16UIViewControllerCtF",
+            "mangledName": "$s17InnovateARFoodSDK20RestaurantExperienceP05startdE010restaurant8clientId2inyAA0D0V_SSSo16UIViewControllerCtF",
+            "moduleName": "InnovateARFoodSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : InnovateARFoodSDK.RestaurantExperience>",
+            "sugared_genericSig": "<Self where Self : InnovateARFoodSDK.RestaurantExperience>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "AssociatedType",
+            "name": "RestaurantView",
+            "printedName": "RestaurantView",
+            "declKind": "AssociatedType",
+            "usr": "s:17InnovateARFoodSDK20RestaurantExperienceP0D4ViewQa",
+            "mangledName": "$s17InnovateARFoodSDK20RestaurantExperienceP0D4ViewQa",
+            "moduleName": "InnovateARFoodSDK",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "makeRestaurantView",
+            "printedName": "makeRestaurantView(restaurant:clientId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.RestaurantView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Restaurant",
+                "printedName": "InnovateARFoodSDK.Restaurant",
+                "usr": "s:17InnovateARFoodSDK10RestaurantV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17InnovateARFoodSDK20RestaurantExperienceP04makeD4View10restaurant8clientId0dG0QzAA0D0V_SStF",
+            "mangledName": "$s17InnovateARFoodSDK20RestaurantExperienceP04makeD4View10restaurant8clientId0dG0QzAA0D0V_SStF",
+            "moduleName": "InnovateARFoodSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : InnovateARFoodSDK.RestaurantExperience>",
+            "sugared_genericSig": "<Self where Self : InnovateARFoodSDK.RestaurantExperience>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17InnovateARFoodSDK20RestaurantExperienceP",
+        "mangledName": "$s17InnovateARFoodSDK20RestaurantExperienceP",
+        "moduleName": "InnovateARFoodSDK",
+        "genericSig": "<τ_0_0.RestaurantView : SwiftUI.View>",
+        "sugared_genericSig": "<Self.RestaurantView : SwiftUI.View>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RestaurantSDK",
+        "printedName": "RestaurantSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RestaurantSDK",
+                "printedName": "InnovateARFoodSDK.RestaurantSDK",
+                "usr": "s:17InnovateARFoodSDK010RestaurantC0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK010RestaurantC0C6sharedACvpZ",
+            "mangledName": "$s17InnovateARFoodSDK010RestaurantC0C6sharedACvpZ",
+            "moduleName": "InnovateARFoodSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RestaurantSDK",
+                    "printedName": "InnovateARFoodSDK.RestaurantSDK",
+                    "usr": "s:17InnovateARFoodSDK010RestaurantC0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK010RestaurantC0C6sharedACvgZ",
+                "mangledName": "$s17InnovateARFoodSDK010RestaurantC0C6sharedACvgZ",
+                "moduleName": "InnovateARFoodSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "startRestaurantExperience",
+            "printedName": "startRestaurantExperience(restaurant:clientId:in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Restaurant",
+                "printedName": "InnovateARFoodSDK.Restaurant",
+                "usr": "s:17InnovateARFoodSDK10RestaurantV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17InnovateARFoodSDK010RestaurantC0C05startD10Experience10restaurant8clientId2inyAA0D0V_SSSo16UIViewControllerCtF",
+            "mangledName": "$s17InnovateARFoodSDK010RestaurantC0C05startD10Experience10restaurant8clientId2inyAA0D0V_SSSo16UIViewControllerCtF",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeRestaurantView",
+            "printedName": "makeRestaurantView(restaurant:clientId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Restaurant",
+                "printedName": "InnovateARFoodSDK.Restaurant",
+                "usr": "s:17InnovateARFoodSDK10RestaurantV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17InnovateARFoodSDK010RestaurantC0C04makeD4View10restaurant8clientIdQrAA0D0V_SStF",
+            "mangledName": "$s17InnovateARFoodSDK010RestaurantC0C04makeD4View10restaurant8clientIdQrAA0D0V_SStF",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17InnovateARFoodSDK010RestaurantC0C",
+        "mangledName": "$s17InnovateARFoodSDK010RestaurantC0C",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RestaurantExperience",
+            "printedName": "RestaurantExperience",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RestaurantView",
+                "printedName": "RestaurantView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:17InnovateARFoodSDK20RestaurantExperienceP",
+            "mangledName": "$s17InnovateARFoodSDK20RestaurantExperienceP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RealityKit",
+        "printedName": "RealityKit",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ARKit",
+        "printedName": "ARKit",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntity.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4153,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntity.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7954,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntity.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8064,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntity.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8190,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntity.swift",
+      "kind": "Array",
+      "offset": 8991,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntity.swift",
+      "kind": "Array",
+      "offset": 9093,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntity.swift",
+      "kind": "Array",
+      "offset": 9219,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntity.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9526,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntity.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13729,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntity.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14061,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntity+Alignment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3658,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntity+Alignment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3727,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntity+Alignment.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3786,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntity+Classic.swift",
+      "kind": "FloatLiteral",
+      "offset": 425,
+      "length": 4,
+      "value": "0.17"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntity+Classic.swift",
+      "kind": "FloatLiteral",
+      "offset": 547,
+      "length": 5,
+      "value": "0.018"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntity+Classic.swift",
+      "kind": "FloatLiteral",
+      "offset": 686,
+      "length": 4,
+      "value": "0.97"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntity+Classic.swift",
+      "kind": "FloatLiteral",
+      "offset": 793,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntity+Classic.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2938,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntity+Segment.swift",
+      "kind": "FloatLiteral",
+      "offset": 1157,
+      "length": 5,
+      "value": "0.018"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntity+Segment.swift",
+      "kind": "FloatLiteral",
+      "offset": 1250,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntity+Segment.swift",
+      "kind": "FloatLiteral",
+      "offset": 1408,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntityComponent.swift",
+      "kind": "FloatLiteral",
+      "offset": 1799,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntityComponent.swift",
+      "kind": "FloatLiteral",
+      "offset": 1811,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntityComponent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2519,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntityComponent.swift",
+      "kind": "FloatLiteral",
+      "offset": 2529,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntityComponent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2540,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntityComponent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2550,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntityComponent.swift",
+      "kind": "FloatLiteral",
+      "offset": 3215,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntityComponent.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3328,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntityComponent.swift",
+      "kind": "Array",
+      "offset": 3384,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntityComponent.swift",
+      "kind": "FloatLiteral",
+      "offset": 3591,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FocusEntityFiles\/FocusEntityComponent.swift",
+      "kind": "FloatLiteral",
+      "offset": 3603,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodARView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 253,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodARView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 461,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodARView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 538,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodARView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 644,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodARView.swift",
+      "kind": "FloatLiteral",
+      "offset": 697,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodARView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1000,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodList.swift",
+      "kind": "Array",
+      "offset": 280,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodList.swift",
+      "kind": "BooleanLiteral",
+      "offset": 322,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "Array",
+      "offset": 217,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "Array",
+      "offset": 253,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/InnARViewModel.swift",
+      "kind": "Array",
+      "offset": 361,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/InnARViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 387,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

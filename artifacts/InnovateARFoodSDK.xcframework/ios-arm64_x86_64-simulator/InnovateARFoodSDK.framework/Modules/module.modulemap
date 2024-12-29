@@ -1,0 +1,6 @@
+framework module InnovateARFoodSDK {
+  umbrella header "InnovateARFoodSDK.h"
+  export *
+
+  module * { export * }
+}
