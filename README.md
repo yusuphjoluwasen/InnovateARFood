@@ -112,7 +112,7 @@ i. Restaurant: Represents a restaurant with a list of food items. Each food item
       3) arUSDZLink: A URL to the 3D AR model of the food (USDZ format).
       4) price: The price of the food item.
       5) 
-ii. clientID: unique client id generated from the business portal
+ii. clientId: unique client id generated from the business portal
 
 ## Requirements
 - iOS 16.0 or later
