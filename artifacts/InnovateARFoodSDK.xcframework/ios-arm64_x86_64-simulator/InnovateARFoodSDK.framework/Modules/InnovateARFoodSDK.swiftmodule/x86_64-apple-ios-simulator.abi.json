@@ -2472,6 +2472,94 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageLoader",
+        "printedName": "ImageLoader",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "loadImage",
+            "printedName": "loadImage(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17InnovateARFoodSDK11ImageLoaderC04loadD04nameSo7UIImageCSS_tFZ",
+            "mangledName": "$s17InnovateARFoodSDK11ImageLoaderC04loadD04nameSo7UIImageCSS_tFZ",
+            "moduleName": "InnovateARFoodSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17InnovateARFoodSDK11ImageLoaderC",
+        "mangledName": "$s17InnovateARFoodSDK11ImageLoaderC",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RealityKit",
+        "printedName": "RealityKit",
+        "declKind": "Import",
+        "moduleName": "InnovateARFoodSDK"
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -3002,6 +3090,50 @@
           },
           {
             "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17InnovateARFoodSDK4FoodV11descriptionSSvp",
+            "mangledName": "$s17InnovateARFoodSDK4FoodV11descriptionSSvp",
+            "moduleName": "InnovateARFoodSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17InnovateARFoodSDK4FoodV11descriptionSSvg",
+                "mangledName": "$s17InnovateARFoodSDK4FoodV11descriptionSSvg",
+                "moduleName": "InnovateARFoodSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "imageURL",
             "printedName": "imageURL",
             "children": [
@@ -3135,7 +3267,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(name:imageURL:arUSDZLink:price:)",
+            "printedName": "init(name:description:imageURL:arUSDZLink:price:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3163,14 +3295,20 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Double",
                 "printedName": "Swift.Double",
                 "usr": "s:Sd"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:17InnovateARFoodSDK4FoodV4name8imageURL10arUSDZLink5priceACSS_S2SSdtcfc",
-            "mangledName": "$s17InnovateARFoodSDK4FoodV4name8imageURL10arUSDZLink5priceACSS_S2SSdtcfc",
+            "usr": "s:17InnovateARFoodSDK4FoodV4name11description8imageURL10arUSDZLink5priceACSS_S3SSdtcfc",
+            "mangledName": "$s17InnovateARFoodSDK4FoodV4name11description8imageURL10arUSDZLink5priceACSS_S3SSdtcfc",
             "moduleName": "InnovateARFoodSDK",
             "declAttributes": [
               "AccessControl",
@@ -4015,58 +4153,79 @@
       "value": "0.1"
     },
     {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/Food3DView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 239,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/Food3DView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 434,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/Food3DView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 488,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodARView.swift",
       "kind": "BooleanLiteral",
-      "offset": 253,
+      "offset": 346,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodARView.swift",
       "kind": "BooleanLiteral",
-      "offset": 461,
+      "offset": 475,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodARView.swift",
       "kind": "BooleanLiteral",
-      "offset": 538,
+      "offset": 552,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodARView.swift",
       "kind": "BooleanLiteral",
-      "offset": 644,
+      "offset": 658,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodARView.swift",
       "kind": "FloatLiteral",
-      "offset": 697,
+      "offset": 711,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodARView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1021,
+      "offset": 1035,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodList.swift",
       "kind": "Array",
-      "offset": 280,
+      "offset": 3200,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodList.swift",
       "kind": "BooleanLiteral",
-      "offset": 322,
+      "offset": 3242,
       "length": 5,
       "value": "false"
     },
@@ -4079,10 +4238,185 @@
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
-      "kind": "Array",
-      "offset": 280,
-      "length": 2,
-      "value": "[]"
+      "kind": "StringLiteral",
+      "offset": 770,
+      "length": 13,
+      "value": "\"Sushi Place\""
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 809,
+      "length": 7,
+      "value": "\"Pizza\""
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 831,
+      "length": 58,
+      "value": "\"Delicious pizza with fresh ingredients and melted cheese\""
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 901,
+      "length": 185,
+      "value": "\"https:\/\/firebasestorage.googleapis.com\/v0\/b\/restaurantarbusinessapp.firebasestorage.app\/o\/3DModels%2Fbrorestaurant%2FVvv%2FVvv.png?alt=media&token=08ee5668-f5f1-4bdb-a3ec-2b4606918cfa\""
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1100,
+      "length": 159,
+      "value": "\"https:\/\/firebasestorage.googleapis.com\/v0\/b\/nursingmother-64709.appspot.com\/o\/innovate_usdz%2Fpizza.usdz?alt=media&token=874a42a8-17f0-491d-a6bc-e759a91530e2\""
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 1268,
+      "length": 4,
+      "value": "8.99"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1290,
+      "length": 16,
+      "value": "\"Steak and Rice\""
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1321,
+      "length": 101,
+      "value": "\"Fried Rice with Steak, Salad Raita, Bolgarski Pepper, Onions, Plantain Chops, Carrot and Vegetables\""
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1434,
+      "length": 169,
+      "value": "\"https:\/\/firebasestorage.googleapis.com\/v0\/b\/nursingmother-64709.appspot.com\/o\/innovate_images%2FSteak_and_rice.png?alt=media&token=e43e6a8b-3118-4e82-a5ed-9dc149391fea\""
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1617,
+      "length": 168,
+      "value": "\"https:\/\/firebasestorage.googleapis.com\/v0\/b\/nursingmother-64709.appspot.com\/o\/innovate_usdz%2FSteak_and_Rice.usdz?alt=media&token=485c84f3-7ac5-46df-8a62-352885113683\""
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 1794,
+      "length": 5,
+      "value": "12.50"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1817,
+      "length": 13,
+      "value": "\"Burger King\""
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1845,
+      "length": 107,
+      "value": "\"British Prime Fish Patty, Crispy Bacon, Chille Con Carne, Choice of Pretzel, Brioche or Sesame Bun, Salad\""
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1964,
+      "length": 166,
+      "value": "\"https:\/\/firebasestorage.googleapis.com\/v0\/b\/nursingmother-64709.appspot.com\/o\/innovate_images%2Fburger_king.png?alt=media&token=2ce433ec-176e-4dd5-badc-9bdbec8767b9\""
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2144,
+      "length": 165,
+      "value": "\"https:\/\/firebasestorage.googleapis.com\/v0\/b\/nursingmother-64709.appspot.com\/o\/innovate_usdz%2Fburger_king.usdz?alt=media&token=fc79b141-04d4-4f31-baed-8f301ca71b63\""
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 2318,
+      "length": 4,
+      "value": "7.25"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2340,
+      "length": 6,
+      "value": "\"Cake\""
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2361,
+      "length": 78,
+      "value": "\"Fresh Cream, Mixed Fruit, Vanilla Sponge, Strawberries, Red Velvets, Peanuts\""
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2451,
+      "length": 159,
+      "value": "\"https:\/\/firebasestorage.googleapis.com\/v0\/b\/nursingmother-64709.appspot.com\/o\/innovate_images%2Fcake.png?alt=media&token=f3650bae-d43b-4815-9cd7-456ebab1c45a\""
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2624,
+      "length": 158,
+      "value": "\"https:\/\/firebasestorage.googleapis.com\/v0\/b\/nursingmother-64709.appspot.com\/o\/innovate_usdz%2Fcake.usdz?alt=media&token=dee4d5bb-f0f4-4bd0-96be-0868e9ce9177\""
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 2791,
+      "length": 4,
+      "value": "4.99"
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2813,
+      "length": 27,
+      "value": "\"Blueberry Double PanCakes\""
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2855,
+      "length": 71,
+      "value": "\"Four buttermilk pancakes with cinnamon, topped with blueberry compote\""
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2938,
+      "length": 162,
+      "value": "\"https:\/\/firebasestorage.googleapis.com\/v0\/b\/nursingmother-64709.appspot.com\/o\/innovate_images%2Fpancake.png?alt=media&token=690da99f-0057-43b0-9fe6-8dfa30628792\""
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3114,
+      "length": 162,
+      "value": "\"https:\/\/firebasestorage.googleapis.com\/v0\/b\/nursingmother-64709.appspot.com\/o\/innovate_usdz%2Fpancakes.usdz?alt=media&token=e9378194-2443-4449-bced-bb819c550fb9\""
+    },
+    {
+      "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/FoodViewModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 3285,
+      "length": 4,
+      "value": "4.99"
     },
     {
       "filePath": "\/Users\/guruking\/Documents\/Innovate\/InnovateARFoodSDK\/InnovateARFoodSDK\/InnARViewModel.swift",

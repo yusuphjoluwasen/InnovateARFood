@@ -10,31 +10,43 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Id5t3AGp/q1GqGEYh5rdj/PUDUA=
+		zGzA8dWJ8kp6hh2jcc8B5h9LoeA=
 		</data>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Pu9hIQbXVpp3P/yKrYFztg6wi/4=
+		Bn4CeSOvJDbOAiPkBr2/gMdolyk=
 		</data>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		uGvz05yUlfHB31TLWPbkeZDdy48=
+		/7rZn7uNR6wNpQY2897iu/hDkXY=
 		</data>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		S0Nq68O8E+j27ZHFPbYG0w8K/to=
+		bdp49WVcZVIBtalfWn+fe8Hr+2o=
 		</data>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		uGvz05yUlfHB31TLWPbkeZDdy48=
+		/7rZn7uNR6wNpQY2897iu/hDkXY=
 		</data>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		HZaDd3u3OS6DxQijkpZkWl/74jQ=
+		qbXtV0h4gqicraHxHhDT1k4sISw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		zGGo66xeaaZKNgiZKa8yVKh5h7g=
+		</data>
+		<key>ar-button.png</key>
+		<data>
+		tx/YQkiy75aRzlLvKhURNN3R11g=
+		</data>
+		<key>ar-button@3x.png</key>
+		<data>
+		PBvtacvuXLr/NPLKwzns8ztXY5s=
+		</data>
+		<key>pancakes.usdz</key>
+		<data>
+		j8dbsx7RahYLQ2iNgR5jP41Wd4w=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -50,35 +62,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bIWSyFX29mfep/QjZlZRBG3e71BnsLVuJ2yl6PchCac=
+			iupuAlZHqiF4vXyAqbOPoBrwkaa/x6uHSsjxh04DHvA=
 			</data>
 		</dict>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Nz+AHQwYWLGbUB8v66ZKl7cXq6LCS8LRzcvxmuyZy6I=
+			aOtHzRxLoJuJuBM4AAl9lG8gJtHMvU/A96wJxWhhg3o=
 			</data>
 		</dict>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iwPKSFWp1wLhKvWmfYZv2e1yZP6IKycXJ1VlRJZJ4X8=
+			jgkIu4IFsiScwHgvkC4GW1x27uZgT/pc+Yjv8IolJbo=
 			</data>
 		</dict>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Nz+AHQwYWLGbUB8v66ZKl7cXq6LCS8LRzcvxmuyZy6I=
+			aOtHzRxLoJuJuBM4AAl9lG8gJtHMvU/A96wJxWhhg3o=
 			</data>
 		</dict>
 		<key>Modules/InnovateARFoodSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bOPrMO8F2h3c4te/d1mPpIPhZyYK5bWs+5HS46L0yns=
+			LRu8qASb5kgP3Po0E+b0x2c66K2Xvp+cxAyAM7JyjKM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -86,6 +98,27 @@
 			<key>hash2</key>
 			<data>
 			VLhp8hKz7dhqeCSTXQ+/0FnWOBao5SFVEl/tRPytye0=
+			</data>
+		</dict>
+		<key>ar-button.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0xFUAmJJWDcwtbuS3H1E/oX+4lXoYXKEymq0a/B1Jo8=
+			</data>
+		</dict>
+		<key>ar-button@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			j8zgSEuL/KB7opmqwvKuDIbSLh8lZzLosrtIHyWfmNM=
+			</data>
+		</dict>
+		<key>pancakes.usdz</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rsZIHgmW5dNDqdlu0XvEwvMPyUnIUW2qe12+gXG74qU=
 			</data>
 		</dict>
 	</dict>
